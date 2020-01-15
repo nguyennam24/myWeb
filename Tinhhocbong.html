@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" charset="uft-8">
+			function TinhHB(){
+				var Diem=frm1.txtDiem.Value;
+				if(Diem<7){
+					frm1.txtHb.Value="0";
+				}
+				else if(Diem<8)
+				{
+					drm1.txtHb.Value="20$"
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<form action="" method="post" accept-charset="uft-8" name="frm1">
+		<table border="1" bgcolor="lavender">
+			<tr>
+				<td colspan="2" rowspan="" headers="">Tinh Hoc Bong</td>
+			</tr>
+			<tr>
+				<td>Diem TB</td>
+				<td>
+					<input type="number" name="txtDiem" value="" placeholder="DiemTB" required="true">
+				</td>
+			</tr>
+			<tr>
+				<td>Muc HB</td>
+				<td>
+					<input type="text" name="txtHB" placeholder="" readonly="true">
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" name="" value="TinhHB" onclick="TinhHB()">
+
+				</td>
+				<td>
+					<input type="reset" name="" value="Xoa">
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+
+</body>
+</html>
